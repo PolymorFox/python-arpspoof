@@ -26,5 +26,10 @@ pip install -r requirements
 Here's what arguments you need to run to python-arpspoof:
 
 ```
+sudo python main.py --target_address <target address> --spoof_address <spoofed address>
+```
+
+If you're already running as root just do:
+```
 python main.py --target_address <target address> --spoof_address <spoofed address>
 ```
