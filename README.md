@@ -26,5 +26,5 @@ pip install -r requirements
 Here's what arguments you need to run to python-arpspoof:
 
 ```
-python main.py -t <target address> -s <spoofed address>
+python main.py -t <target address> -s <spoofed address> -n <amount of poisoning arp responses you want to send>
 ```
